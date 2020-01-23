@@ -1,0 +1,23 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-title  {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 500px;
+  size: 600pt;
+}
+
+.card-text {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-bottom: 358px;
+text-emphasis-style: sesame;
+}
+
+
+.footer2 {
+  width: 100%;
+  height: 184px;
+}
