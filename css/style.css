@@ -6,14 +6,24 @@ body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   padding-top: 500px;
-  size: 600pt;
+  font-size: 75px;
 }
+
+
+
+
+.card-img    {
+
+  object-fit: contain;
+    height: 737px;
+ }
 
 .card-text {
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  padding-bottom: 358px;
-text-emphasis-style: sesame;
+  padding-bottom: ;
+  font-size: 72px;
+  font-weight: bolder;
 }
 
 .rectangulofinal{
