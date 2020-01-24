@@ -6,27 +6,30 @@ body {
 .container-fluid   {
   width: 100%;
 }
-.yosoy {
-  text-align: center;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-}
 
-.card-title   {
-  font-family: 'Oswald', sans-serif;
-  }
-
+@media (min-width: 768px)   {
+     #fotoportada {
+  
+     }
+   }
 .card-img    {
 object-fit: contain;
 display: flex;
  }
 
-.nombre {
-  font-family: 'Oswald', sans-serif;
-  color: white;
+.card-img-overlay {
   text-align: center;
-  font-size: 72px;
-  font-weight: bolder;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50pt;
+  color: white;
+}
+
+.yosoy  {
+  font-weight: lighter;
+}
+
+.nombre   {
+  font-weight: bold;
 }
 
 .titulowork   {
@@ -72,7 +75,7 @@ label   {
   width: 100%;
   }
 
-.lineaseparacion  {
+.lineaseparacion1  {
   margin-top: 0rem;
     margin-bottom: 2rem;
     margin-left: 31rem;
@@ -81,7 +84,7 @@ label   {
     border-top: 2px solid rgb(255, 255, 255);
 }
 
-.lineaseparacion1   {
+.lineaseparacion2   {
   width: 10%;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -144,12 +147,12 @@ padding-bottom: 70px;
 
 .textoFooter1 {
   text-align: left;
+  font-size: 34pt;
   font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
-  padding-top: 9.5%;
-  padding-left: 30%;
 }
 
 @media screen and (max-width: 796px) {
