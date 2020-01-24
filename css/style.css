@@ -58,6 +58,29 @@ body {
   color: black;
 
 }
+.Experiencia {
+  text-align: center;
+  size: 30px;
+}
+.fas  {
+  font-size: 94px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ea44a0;
+}
+.exp   {
+    font-weight: bolder;
+    font-family: inherit;
+    margin-top: -47px;
+    font-size: 21pt;
+    margin-bottom: 1rem;
+    color: #660066;
+}
+
+.lugar   {
+  bottom: 0.75em;
+  font-size: 15pt;
+}
 
 .rectangulofinal{
   padding-top:150px;
