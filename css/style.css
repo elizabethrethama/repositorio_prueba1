@@ -4,26 +4,59 @@ body {
 
 .card-title  {
   text-align: center;
+  color: white;
   font-family: 'Oswald', sans-serif;
   padding-top: 500px;
-  font-size: 75px;
+  font-size: 65px;
+}
+
+.card-img    {
+  object-fit: contain;
+  height: 1280;
+
+ }
+
+
+.card-text {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-weight: bolder;
+  margin-top: -37px;
+  letter-spacing: 0.3px;
 }
 
 
 
 
-.card-img    {
-
-  object-fit: contain;
-    height: 737px;
- }
-
-.card-text {
-  font-family: 'Oswald', sans-serif;
+#about  {
+  font-size: 25pt;
   text-align: center;
-  padding-bottom: ;
-  font-size: 72px;
-  font-weight: bolder;
+  padding-left: 156px;
+  padding-right: 156px;
+  height: 153px;
+  width: 1280px;
+  margin-bottom: 80px;
+}
+
+.lineaseparacion  {
+  margin-top: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 31rem;
+    margin-right: 31rem;
+    border: 0;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.lineaseparacion1   {
+  width: 10%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 4px solid rgba(125, 51, 156, 0.48);
+  color: black;
+
 }
 
 .rectangulofinal{
