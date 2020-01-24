@@ -1,44 +1,76 @@
 body {
   font-family: 'Oswald', sans-serif;
+
 }
 
-.card-title  {
+.container-fluid   {
+  width: 100%;
+}
+.yosoy {
   text-align: center;
   color: white;
   font-family: 'Oswald', sans-serif;
-  padding-top: 500px;
-  font-size: 65px;
 }
 
-.card-img    {
-  object-fit: contain;
-  height: 1280;
+.card-title   {
+  font-family: 'Oswald', sans-serif;
+  }
 
+.card-img    {
+object-fit: contain;
+display: flex;
  }
 
-
-.card-text {
+.nombre {
   font-family: 'Oswald', sans-serif;
   color: white;
   text-align: center;
   font-size: 72px;
   font-weight: bolder;
-  margin-top: -37px;
-  letter-spacing: 0.3px;
 }
 
-
-
-
-#about  {
-  font-size: 25pt;
+.titulowork   {
   text-align: center;
-  padding-left: 156px;
-  padding-right: 156px;
-  height: 153px;
-  width: 1280px;
-  margin-bottom: 80px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 40pt;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
+
+label   {
+  color: white
+}
+
+@media screen and (max-width: 796px) {
+   #about {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 100%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 796px) {
+   #presentacion {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 100%;
+    display: none;
+  }
+}
+
+  #about {
+  font-size: 20pt;
+  text-align: center;
+  padding-top: 20px;
+  width: 100%;
+  }
 
 .lineaseparacion  {
   margin-top: 0rem;
@@ -61,13 +93,24 @@ body {
 .Experiencia {
   text-align: center;
   size: 30px;
+
 }
+
 .fas  {
   font-size: 94px;
-  padding-top: 100px;
   padding-bottom: 100px;
   color: #ea44a0;
 }
+
+.tituloexperiencia {
+  padding-top: 50px;
+}
+
+h4  {
+  letter-spacing: 2px;
+    line-height: 38px;
+}
+
 .exp   {
     font-weight: bolder;
     font-family: inherit;
@@ -80,6 +123,10 @@ body {
 .lugar   {
   bottom: 0.75em;
   font-size: 15pt;
+}
+.mistrabajos  {
+  background-color: #660066;
+padding-bottom: 70px;
 }
 
 .rectangulofinal{
