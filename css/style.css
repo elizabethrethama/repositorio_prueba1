@@ -190,3 +190,58 @@ padding-bottom: 70px;
      background-size: cover;
   }
 }
+
+.btn-primary  {
+  color: white;
+  background-color: #660066;
+  border-color: grey;
+}
+
+.lineacontacto      {
+  width: 10%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 4px solid rgba(125, 51, 156, 0.48);
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+   #contact {
+     width: 100%;
+     height: 507px;
+     object-position: center;
+     background-position: 50%;
+     background-size: cover;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  #preguntacontacto {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 100%;
+    display: none;
+  }
+
+  @media screen and (max-width: 100px) {
+    #titulocontacto {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 100%;
+      display: none;
+    }
+
+    @media screen and (min-max-width: 100px) {
+      #quieressaber {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 100%;
+        display: none;
+      }
