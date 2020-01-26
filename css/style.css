@@ -143,17 +143,11 @@ padding-bottom: 70px;
   padding-top:150px;
 }
 
-.tableIcon {
-  padding-top: 6.5%;
-  padding-right:26%;
-}
-
 .fondofooter {
   height:170px;
 }
 
 .textoFooter1 {
-  text-align: left;
   font-size: 34pt;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
@@ -197,6 +191,12 @@ padding-bottom: 70px;
   border-color: grey;
 }
 
+.btn-primary:hover   {
+  color: white;
+  background-color: #660000;
+  border-color: grey;
+}
+
 .lineacontacto      {
   width: 10%;
   margin-top: 1rem;
@@ -206,42 +206,30 @@ padding-bottom: 70px;
   color: black;
 }
 
-@media screen and (max-width: 800px) {
-   #contact {
-     width: 100%;
-     height: 507px;
-     object-position: center;
-     background-position: 50%;
-     background-size: cover;
-  }
-}
 
-@media screen and (max-width: 100px) {
-  #preguntacontacto {
+    @media screen and (max-width: 500px) {
+    #divContacto1 {
     visibility: hidden;
     clear: both;
     float: left;
     margin: 10px auto 5px 20px;
     width: 100%;
     display: none;
-  }
-
-  @media screen and (max-width: 100px) {
-    #titulocontacto {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 100%;
-      display: none;
     }
 
-    @media screen and (min-max-width: 100px) {
-      #quieressaber {
-        visibility: hidden;
-        clear: both;
-        float: left;
-        margin: 10px auto 5px 20px;
-        width: 100%;
-        display: none;
-      }
+    @media screen and (max-width: 500px) {
+    #btnContacto {
+      width:100%;
+
+    }
+
+    @media screen and (max-width: 500px) {
+    #containerButton {
+    padding-top: 300px;
+    }
+
+    @media screen and (max-width: 300px) {
+    #divSocial {
+      bottom: 80px;
+      padding-bottom: 300px;
+    }
